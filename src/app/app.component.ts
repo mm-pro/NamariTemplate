@@ -14,7 +14,7 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet],
+  imports: [CommonModule, RouterOutlet , HeaderComponent , AboutComponent , NavComponent , ClientsComponent , FooterComponent , GalleryComponent , PricingComponent , ServicesComponent , TestimonialsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
